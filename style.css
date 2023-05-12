@@ -147,6 +147,7 @@ img {
 .action {
     justify-content:center;
     align-items: center;
+    background-color: #111111;
     color: white;
 }
 
@@ -172,4 +173,13 @@ img {
 
 .signup {
     font-size: 18px;
+}
+
+.footer {
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #111111;
+    color: white;
 }
