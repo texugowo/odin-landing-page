@@ -21,10 +21,26 @@ li {
     margin: 16px;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(133, 42, 166);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
 .top {
     background-color: #111111;
     padding-left: 200px;
     padding-right: 200px;
+    flex-shrink: 0;
 }
 
 .header {
@@ -40,14 +56,57 @@ li {
     font-weight: bold;
 }
 
-.intro {
-    margin-top: 40px;   
+.intro { 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 12px;
     height: 200px;
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero-small-text {
     color: rgb(212, 212, 212);
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left, .right {
+    width: 400px; 
+}
+
+.randominfo {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 12px;
+    color: #1F2937;
+
+}
+
+.randominfo-text {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.randomimages {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+  }
