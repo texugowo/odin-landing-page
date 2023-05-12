@@ -68,6 +68,7 @@ button {
 }
 
 .hero-small-text {
+    font-size: 18px;
     color: rgb(212, 212, 212);
     margin-top: 8px;
     margin-bottom: 8px;
@@ -85,9 +86,8 @@ button {
 .randominfo {
     padding-left: 150px;
     padding-right: 150px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-bottom: 12px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: #1F2937;
 
 }
@@ -106,7 +106,31 @@ button {
 }
 
 .card {
+    font-size: 18px;
     padding: 16px;
     margin: 16px;
-    width: 200px;
+    width: 250px;
   }
+
+.quote {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #E5E7EB;
+    color: black;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style:italic;
+}
+
+.thor {
+    font-size: 36px;
+    font-weight: bold;
+    text-align:end
+}
