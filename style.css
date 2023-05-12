@@ -27,13 +27,25 @@ img {
     border-radius: 15px;
 }
 
-button {
+.button1 {
     border: none;
     color: white;
     font-weight: bold;
     background-color: rgb(133, 42, 166);
-    padding: 8px 16px;
+    padding: 8px 35px;
     border-radius: 8px;
+    font-size: 15px;
+}
+
+.button2 {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(133, 42, 166);
+    padding: 8px 35px;
+    border-radius: 8px;
+    border-style: solid;
+    font-size: 15px;
+    border-color: white;
 }
 
 .top {
@@ -113,10 +125,7 @@ button {
   }
 
 .quote {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -133,4 +142,34 @@ button {
     font-size: 36px;
     font-weight: bold;
     text-align:end
+}
+
+.action {
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+
+.actioncontainer {
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 200px;
+    background-color:rgb(133, 42, 166);
+}
+
+.call {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.signup {
+    font-size: 18px;
 }
